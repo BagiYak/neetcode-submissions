@@ -1,3 +1,5 @@
+# https://neetcode.io/problems/duplicate-integer/history
+
 from typing import List
 
 class Solution:
