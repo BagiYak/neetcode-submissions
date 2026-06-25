@@ -1,7 +1,15 @@
-# cases:
+# https://neetcode.io/problems/is-anagram/history
+# https://neetcode.io/problems/is-anagram/notes
+
+## Solved in 55 min. using tips and solution
+
+# Idea after read tips was to use two dict for two strings to save their characters frequency:
 # check length: s.length != t.length - return false
 # use two 'dict' to save frequency of each character from both strings by going in one loop
 # then check: if frequencies are equal - return true, if not - return false
+
+# confused how to implement to save them)
+# so was need to check the solution -> https://neetcode.io/problems/is-anagram/solution
 
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
